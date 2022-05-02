@@ -1,0 +1,22 @@
+---
+
+name: Thingworx Application
+on:
+  push:
+    branches:
+      - 'dev'
+    paths:
+       - '.github/workflows/thingworx_application.yml'
+  pull_request:
+    branches:
+      - 'qa'
+      - 'release'
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      working-directory: ./Thingworx-DockerFiles/ThingWorx-Ignite-DockerFiles-3-10/
+    steps:
+      - uses: actions/checkout@v2
+
