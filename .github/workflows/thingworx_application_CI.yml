@@ -16,7 +16,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      working-directory: ./Thingworx-DockerFiles/ThingWorx-Ignite-DockerFiles-3-10/
+      working-directory: ./Thingworx-Application/
     steps:
       - uses: actions/checkout@v2
 
