@@ -6,7 +6,7 @@ on:
     branches:
       - 'dev'
     paths:
-       - '.github/workflows/thingworx_application.yml'
+       - '.github/workflows/thingworx_application_CI.yml'
   pull_request:
     branches:
       - 'qa'
