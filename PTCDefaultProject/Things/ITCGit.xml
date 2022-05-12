@@ -127,17 +127,17 @@
                         <Row>
                             <BranchName>
                             <![CDATA[
-                            dev
+                            main
                             ]]>
                             </BranchName>
                             <CommitEmail>
                             <![CDATA[
-                            43885@itcinfotech.com
+                            preetham.p1997@gmail.com
                             ]]>
                             </CommitEmail>
                             <CommitName>
                             <![CDATA[
-                            shashi
+                            psp316r
                             ]]>
                             </CommitName>
                             <FileRepository>
@@ -147,14 +147,10 @@
                             </FileRepository>
                             <GitRepoURL>
                             <![CDATA[
-                            https://github.com/tibimathai/thingworx-application
+                            https://github.com/psp316r/Git-Test.git
                             ]]>
                             </GitRepoURL>
-                            <LocalizationTokensPrefix>
-                            <![CDATA[
-                            prefix
-                            ]]>
-                            </LocalizationTokensPrefix>
+                            <LocalizationTokensPrefix></LocalizationTokensPrefix>
                             <Password></Password>
                             <ProxyPort>0</ProxyPort>
                             <ProxyURL>
@@ -170,7 +166,7 @@
                             <UseProxy>false</UseProxy>
                             <User>
                             <![CDATA[
-                            pspitc
+                            psp316r
                             ]]>
                             </User>
                         </Row>
