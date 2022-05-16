@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities
+ majorVersion="9"
+ minorVersion="2"
+ universal="password">
+    <StateDefinitions>
+        <StateDefinition
+         aspect.isExtension="true"
+         description=""
+         documentationContent=""
+         homeMashup=""
+         name="GIT.InstalledState.SD"
+         projectName="GitBackup"
+         tags="">
+            <avatar></avatar>
+            <DesignTimePermissions>
+                <Create></Create>
+                <Read></Read>
+                <Update></Update>
+                <Delete></Delete>
+                <Metadata></Metadata>
+            </DesignTimePermissions>
+            <RunTimePermissions></RunTimePermissions>
+            <VisibilityPermissions>
+                <Visibility></Visibility>
+            </VisibilityPermissions>
+            <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
+            <ConfigurationTables></ConfigurationTables>
+            <content>
+            <![CDATA[
+            {
+              "stateDefinitions" : [ {
+                "defaultStyleDefinition" : "",
+                "defaultValue" : "true",
+                "description" : "",
+                "displayString" : "Installed",
+                "name" : ""
+              }, {
+                "defaultStyleDefinition" : "",
+                "description" : "",
+                "displayString" : "Not Installed",
+                "name" : ""
+              } ],
+              "stateType" : "string"
+            }
+            ]]>
+            </content>
+        </StateDefinition>
+    </StateDefinitions>
+</Entities>

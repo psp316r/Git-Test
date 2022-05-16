@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities
+ majorVersion="9"
+ minorVersion="2"
+ universal="password">
+    <StateDefinitions>
+        <StateDefinition
+         aspect.isEditableExtensionObject="true"
+         aspect.isExtension="true"
+         description=""
+         documentationContent=""
+         homeMashup=""
+         name="GIT.RepoURL.STATE"
+         projectName="GitBackup"
+         tags="">
+            <avatar></avatar>
+            <DesignTimePermissions>
+                <Create></Create>
+                <Read></Read>
+                <Update></Update>
+                <Delete></Delete>
+                <Metadata></Metadata>
+            </DesignTimePermissions>
+            <RunTimePermissions></RunTimePermissions>
+            <VisibilityPermissions>
+                <Visibility></Visibility>
+            </VisibilityPermissions>
+            <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
+            <ConfigurationTables></ConfigurationTables>
+            <content>
+            <![CDATA[
+            {
+              "stateDefinitions" : [ {
+                "defaultStyleDefinition" : "",
+                "defaultValue" : "BitBucket",
+                "description" : "",
+                "displayString" : "Online BitBucket",
+                "name" : "BitBucket"
+              }, {
+                "defaultStyleDefinition" : "",
+                "defaultValue" : "Other",
+                "description" : "",
+                "displayString" : "Other",
+                "name" : "Other"
+              }, {
+                "defaultStyleDefinition" : "",
+                "description" : "",
+                "displayString" : "Online BitBucket",
+                "name" : "BitBucket"
+              } ],
+              "stateType" : "string"
+            }
+            ]]>
+            </content>
+        </StateDefinition>
+    </StateDefinitions>
+</Entities>
